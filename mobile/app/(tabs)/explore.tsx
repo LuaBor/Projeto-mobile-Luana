@@ -34,50 +34,49 @@ export default function TabTwoScreen() {
         
         </ThemedText>
         <ExternalLink href="https://docs.expo.dev/router/introduction">
-          <ThemedText type="link">Learn more</ThemedText>
+          <ThemedText type="link"></ThemedText>
         </ExternalLink>
       </Collapsible>
       <Collapsible title="Dinheiro guardado">
         <ThemedText>
-          R$ 2.572{' '}
+          R$ 2.572.{' '}
           <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
       </Collapsible>
       <Collapsible title="Rendimento da conta">
         <ThemedText>
-          +R$ 2,72 por mês <ThemedText type="defaultSemiBold"></ThemedText>{' '}
+          +R$ 2,72 por mês. <ThemedText type="defaultSemiBold"></ThemedText>{' '}
           <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
         <Image source={require('@/assets/images/react-logo.png')} style={{ alignSelf: 'center' }} />
         <ExternalLink href="https://reactnative.dev/docs/images">
-          <ThemedText type="link">Learn more</ThemedText>
+          <ThemedText type="link"></ThemedText>
         </ExternalLink>
       </Collapsible>
       <Collapsible title="Empréstimos">
         <ThemedText>
-          Até R$ 5.952 disponível para você <ThemedText type="defaultSemiBold"></ThemedText>{' '}
+          Até R$ 5.952 disponível para você. <ThemedText type="defaultSemiBold"></ThemedText>{' '}
           <ThemedText style={{ fontFamily: 'SpaceMono' }}>
           </ThemedText>
         </ThemedText>
         <ExternalLink href="https://docs.expo.dev/versions/latest/sdk/font">
-          <ThemedText type="link">Learn more</ThemedText>
+          <ThemedText type="link"></ThemedText>
         </ExternalLink>
       </Collapsible>
       <Collapsible title="Seguro de vida">
         <ThemedText>
-          Um seguro completo para você{' '}
-          <ThemedText type="defaultSemiBold">()</ThemedText>
-        </ThemedText>
+            {' '}
+          <ThemedText>Seguro ativo: R$127,32.</ThemedText>
+         </ThemedText>
         <ExternalLink href="https://docs.expo.dev/develop/user-interface/color-themes/">
-          <ThemedText type="link">Learn more</ThemedText>
+          <ThemedText type="link"></ThemedText>
         </ExternalLink>
       </Collapsible>
       <Collapsible title="Ajuda">
         <ThemedText>
           {' '}
-          <ThemedText type="defaultSemiBold"></ThemedText> component uses
-          the powerful <ThemedText type="defaultSemiBold">react-native-reanimated</ThemedText>{' '}
-          library to create a waving hand animation.
+          <ThemedText type="defaultSemiBold"></ThemedText> Se precisar de ajuda você pode entrar em contato com nossa agência atráves do seguinte número +55 ****-****
+          <ThemedText type="defaultSemiBold"></ThemedText>{' '}
         </ThemedText>
         {Platform.select({
           ios: (

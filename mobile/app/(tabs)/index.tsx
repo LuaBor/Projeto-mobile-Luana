@@ -20,9 +20,9 @@ export default function HomeScreen() {
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Saldo em conta corrente:</ThemedText>
+        <ThemedText type="subtitle">Pagar</ThemedText>
         <ThemedText>
-           <ThemedText type="defaultSemiBold">R$ 120,43</ThemedText>
+           <ThemedText type="defaultSemiBold"></ThemedText>
          {' '}
           <ThemedText type="defaultSemiBold">
             {Platform.select({
