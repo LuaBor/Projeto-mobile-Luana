@@ -20,33 +20,29 @@ export default function HomeScreen() {
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Pagar</ThemedText>
+        <ThemedText type="subtitle">Transferências
+       </ThemedText>
+  
         <ThemedText>
            <ThemedText type="defaultSemiBold"></ThemedText>
-         {' '}
           <ThemedText type="defaultSemiBold">
-            {Platform.select({
-              ios: 'cmd + d',
-              android: 'cmd + m',
-              web: 'F12'
-            })}
-          </ThemedText>{' '}
-        </ThemedText>
+           </ThemedText>{' '} Última Transferência feita no dia 03/04/2025.
+        </ThemedText> 
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Dinheiro guardado:</ThemedText>
+        <ThemedText type="subtitle">Pagamento por pix</ThemedText> 
         <ThemedText>
-          R$ 2.572
+          Suas Transferências recentes: +55 ****-**** e +55 ****-****.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Quanto sua conta rendeu:</ThemedText>
+        <ThemedText type="subtitle">Sua chave pix:</ThemedText>
         <ThemedText>
           {' '}
-          <ThemedText type="defaultSemiBold"></ThemedText>{' '}
-          <ThemedText type="defaultSemiBold"></ThemedText>{' '}
-          <ThemedText type="defaultSemiBold"></ThemedText>{' '}
-          <ThemedText type="defaultSemiBold"></ThemedText> +R$ 2,56 por mês 
+          <ThemedText type="defaultSemiBold"></ThemedText>
+          <ThemedText type="defaultSemiBold"></ThemedText>
+          <ThemedText type="defaultSemiBold"></ThemedText>
+          <ThemedText type="defaultSemiBold"></ThemedText> +55 ****-****.
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>

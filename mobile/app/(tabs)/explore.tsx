@@ -25,7 +25,7 @@ export default function TabTwoScreen() {
       <ThemedText>Aqui estão mais algumas opções para você:</ThemedText>
       <Collapsible title="Saldo em conta corrente">
         <ThemedText>
-          R$ 120,43{' '}
+          R$ 120,43 dispobível.{' '}
           <ThemedText type="defaultSemiBold"></ThemedText>{' '}
           <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
@@ -39,13 +39,13 @@ export default function TabTwoScreen() {
       </Collapsible>
       <Collapsible title="Dinheiro guardado">
         <ThemedText>
-          R$ 2.572.{' '}
+          R$ 2.572 de dinheiro guardado.{' '}
           <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
       </Collapsible>
       <Collapsible title="Rendimento da conta">
         <ThemedText>
-          +R$ 2,72 por mês. <ThemedText type="defaultSemiBold"></ThemedText>{' '}
+          +R$ 2,72 de rendimento mensal. <ThemedText type="defaultSemiBold"></ThemedText>{' '}
           <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
         <Image source={require('@/assets/images/react-logo.png')} style={{ alignSelf: 'center' }} />
@@ -55,7 +55,7 @@ export default function TabTwoScreen() {
       </Collapsible>
       <Collapsible title="Empréstimos">
         <ThemedText>
-          Até R$ 5.952 disponível para você. <ThemedText type="defaultSemiBold"></ThemedText>{' '}
+          Até R$ 5.952 disponível para seus empréstimos. <ThemedText type="defaultSemiBold"></ThemedText>{' '}
           <ThemedText style={{ fontFamily: 'SpaceMono' }}>
           </ThemedText>
         </ThemedText>
@@ -75,14 +75,13 @@ export default function TabTwoScreen() {
       <Collapsible title="Ajuda">
         <ThemedText>
           {' '}
-          <ThemedText type="defaultSemiBold"></ThemedText> Se precisar de ajuda você pode entrar em contato com nossa agência atráves do seguinte número +55 ****-****
+          <ThemedText type="defaultSemiBold"></ThemedText> Se precisar de ajuda você pode entrar em contato com nossa agência atráves do seguinte número +55 ****-****.
           <ThemedText type="defaultSemiBold"></ThemedText>{' '}
         </ThemedText>
         {Platform.select({
           ios: (
             <ThemedText>
-              The <ThemedText type="defaultSemiBold">components/ParallaxScrollView.tsx</ThemedText>{' '}
-              component provides a parallax effect for the header image.
+               <ThemedText type="defaultSemiBold"></ThemedText>{' '}
             </ThemedText>
           ),
         })}
