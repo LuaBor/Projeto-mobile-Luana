@@ -25,7 +25,7 @@ export default function TabTwoScreen() {
       <ThemedText>Aqui estão mais algumas opções para você:</ThemedText>
       <Collapsible title="Saldo em conta corrente">
         <ThemedText>
-          R$ 120,43 dispobível.{' '}
+          R$ 120,43 disponível.{' '}
           <ThemedText type="defaultSemiBold"></ThemedText>{' '}
           <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>

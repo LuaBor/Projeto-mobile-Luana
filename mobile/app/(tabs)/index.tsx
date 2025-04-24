@@ -1,4 +1,4 @@
-import { Image, StyleSheet, Platform } from 'react-native';
+import { Image, StyleSheet, Platform, Button } from 'react-native';
 
 import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
@@ -11,7 +11,7 @@ export default function HomeScreen() {
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
       headerImage={
         <Image
-          source={require('@/assets/images/partial-react-logo.png')}
+          source={require('@/assets/images/bank-logo-icon-illustration-vector.jpg')}
           style={styles.reactLogo}
         />
       }>
@@ -20,10 +20,16 @@ export default function HomeScreen() {
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
+      <Button
+  onPress={() => {
+    console.log('You tapped the button!');
+  }}
+  title="Pix"
+/>
         <ThemedText type="subtitle">Transferências
        </ThemedText>
-  
-        <ThemedText>
+
+       <ThemedText>
            <ThemedText type="defaultSemiBold"></ThemedText>
           <ThemedText type="defaultSemiBold">
            </ThemedText>{' '} Última Transferência feita no dia 03/04/2025.
@@ -60,8 +66,8 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   reactLogo: {
-    height: 178,
-    width: 290,
+    height: '100%',
+    width:'100%',
     bottom: 0,
     left: 0,
     position: 'absolute',
