@@ -4,7 +4,6 @@ import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
@@ -28,8 +27,7 @@ export default function HomeScreen() {
 />
         <ThemedText type="subtitle">
        </ThemedText>
-
-       <ThemedText>
+        <ThemedText>
            <ThemedText type="defaultSemiBold"></ThemedText>
           <ThemedText type="defaultSemiBold">
            </ThemedText>{' '} Última Transferência via pix feita no dia 03/04/2025.
@@ -43,7 +41,7 @@ export default function HomeScreen() {
   }}
   title="CARTÕES"
 />
-        <ThemedText> Saldo em crédito: 1.348,00
+        <ThemedText> Saldo em crédito: 1.348,00.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
@@ -58,14 +56,13 @@ export default function HomeScreen() {
           {' '}
           <ThemedText type="defaultSemiBold"></ThemedText>
           <ThemedText type="defaultSemiBold"></ThemedText>
-          <ThemedText type="defaultSemiBold"></ThemedText> Último depósito feito dia 04/11/2025
+          <ThemedText type="defaultSemiBold"></ThemedText> Último depósito feito dia 04/11/2025.
           <ThemedText type="defaultSemiBold"></ThemedText> 
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
   );
 }
-
 const styles = StyleSheet.create({
   titleContainer: {
     flexDirection: 'row',
