@@ -24,31 +24,42 @@ export default function HomeScreen() {
   onPress={() => {
     console.log('You tapped the button!');
   }}
-  title="Pix"
+  title="PIX"
 />
-        <ThemedText type="subtitle">Transferências
+        <ThemedText type="subtitle">
        </ThemedText>
 
        <ThemedText>
            <ThemedText type="defaultSemiBold"></ThemedText>
           <ThemedText type="defaultSemiBold">
-           </ThemedText>{' '} Última Transferência feita no dia 03/04/2025.
+           </ThemedText>{' '} Última Transferência via pix feita no dia 03/04/2025.
         </ThemedText> 
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Pagamento por pix</ThemedText> 
-        <ThemedText>
-          Suas Transferências recentes: +55 ****-**** e +55 ****-****.
+        <ThemedText type="subtitle"></ThemedText> 
+        <Button
+  onPress={() => {
+    console.log('You tapped the button!');
+  }}
+  title="CARTÕES"
+/>
+        <ThemedText> Saldo em crédito: 1.348,00
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Sua chave pix:</ThemedText>
+        <ThemedText type="subtitle"></ThemedText>
+        <Button
+  onPress={() => {
+    console.log('You tapped the button!');
+  }}
+  title="DEPÓSITO"
+/>
         <ThemedText>
           {' '}
           <ThemedText type="defaultSemiBold"></ThemedText>
           <ThemedText type="defaultSemiBold"></ThemedText>
-          <ThemedText type="defaultSemiBold"></ThemedText>
-          <ThemedText type="defaultSemiBold"></ThemedText> +55 ****-****.
+          <ThemedText type="defaultSemiBold"></ThemedText> Último depósito feito dia 04/11/2025
+          <ThemedText type="defaultSemiBold"></ThemedText> 
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
